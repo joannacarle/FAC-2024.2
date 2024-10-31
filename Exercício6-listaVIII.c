@@ -1,0 +1,52 @@
+/*
+	FAETERJ-Rio
+	Fundamentos de Algoritmos de Computação - FAC - Turma A
+	Data: 30/10/2024
+	
+	Lista de Exercícios VIII (Funções):
+	
+	QUESTÃO 06:
+	Implementar uma função que, dado um número inteiro N, 
+	exiba uma sequência de números como as ilustradas nos 
+	exemplos a seguir:
+
+	Exemplo 1:  N = 3
+ 		(1 2) (1 3) (2 1) (2 3) (3 1) (3 2)
+
+	Exemplo 2:  N = 5
+ 		(1 2) (1 3) (1 4) (1 5) (2 1) (2 3) (2 4) (2 5) (3 1) 
+		(3 2) (3 4) (3 5) (4 1) (4 2) (4 3) (4 5) (5 1) (5 2) 
+		(5 3) (5 4)
+*/
+
+#include <stdio.h>
+
+//função para definir os pares
+void exibirPares (int n)//o tipo de retorno é inteiro; o valor n é o parametro de uma função
+{
+	// declarando as variaveis; i representa o primeiro valor e j representa o segundo valor
+	int i, j; 
+	
+	for (i=1; i<= n; i++)//varia quando j é igual a n
+	{
+		for (j=1; j<=n; j++)//varia até atingir o valor de n
+		{
+			//os dois elementos precisam ser distintos
+			if (i!= j)
+			{
+				printf ("(%d %d) ", i, j);
+			}
+		}
+	}
+}
+
+//função principal
+void main (){
+	int numero;
+	//solicitando o valor
+	printf("Digite um numero: ");
+	scanf("%d", &numero);
+	
+	//chamando a função
+	exibirPares(numero); //utiliza os valores coletados na função principal. o valor 'numero' é copiado para 'n'
+}
