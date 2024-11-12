@@ -1,5 +1,5 @@
-/* Fazer uma função que, dados dois números inteiros num1 e num2, determine se num2 é 
-uma potência de num1.*/ 
+/* Fazer uma funÃ§Ã£o que, dados dois nÃºmeros inteiros num1 e num2, determine se num2 Ã© 
+uma potÃªncia de num1.*/ 
 
 #include <stdio.h>
 
