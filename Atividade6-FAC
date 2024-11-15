@@ -1,5 +1,5 @@
-/*Desenvolver uma função que, dado um número inteiro n, determine o seu maior algarismo, assim como o menor.
-Nota: apresentar a main chamando a função implementada.*/
+/*Desenvolver uma funÃ§Ã£o que, dado um nÃºmero inteiro n, determine o seu maior algarismo, assim como o menor.
+Nota: apresentar a main chamando a funÃ§Ã£o implementada.*/
 
 #include <stdio.h>
 
